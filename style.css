@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
+  font-family: Heebo;
 }
 .main-container {
   max-width: 1152px;
@@ -67,4 +68,63 @@ body {
   margin-right: 149px;
   left: 760px;
   margin-bottom: 70px;
+}
+
+/* recent post */
+
+.Recent_post {
+  background-color: aliceblue;
+  padding: 40px 148px; /* Left-right padding */
+}
+
+.Post-top-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.Post-top-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.post_design {
+  display: flex;
+  gap: 32px; /* Space between two cards */
+  justify-content: center;
+}
+
+.post-left,
+.post-Right {
+  background-color: white;
+  width: 418px;
+  height: auto;
+  border-radius: 4px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.post-left-date,
+.post-Right-date {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.post-left h3,
+.post-Right h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.post-left p,
+.post-Right p {
+  font-size: 14px;
+  line-height: 1.6;
 }
