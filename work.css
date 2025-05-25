@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Heebo;
+}
+.main-container {
+  max-width: 1152px;
+  margin: 0 auto;
+  background-color: rgb(247, 245, 237);
+}
+.nav-header {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  flex-direction: row;
+}
+
+.nav-item a {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  margin-right: 60px;
+  top: 27px;
+}
 /* feature works */
 .feature_works {
   padding: 40px 100px;
@@ -5,7 +35,8 @@
 }
 
 .section_title {
-  font-size: 15px;
+  font-size: 25px;
+  margin-top: 90px;
   margin-bottom: 24px;
   color: #111;
 }
